@@ -1,0 +1,27 @@
+{
+    "name": "playwright-project",
+    "version": "1.0.0",
+    "description": "Playwright project for testing SAP Fioneer website",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "format": "prettier --write \"path/to/**/*.js\""
+    },
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "keywords": [
+        "playwright",
+        "testing",
+        "SAP",
+        "Fioneer"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "format": "prettier --write \"path/to/**/*.js\"",
+    "devDependencies": {
+        "@playwright/test": "^1.18.1",
+        "prettier": "3.2.5"
+    }
+}
